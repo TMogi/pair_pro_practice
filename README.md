@@ -27,7 +27,19 @@ $ bundle install --path vendor/bundle
 ```
 
 ### 課題1、課題2 について
-+ 
++  `bundle exec rspec` を実行することでテストが走ります
++ テストを通るようにしましょう
++ それぞれの課題のみテストをかけたい場合
+  + 課題1 : ` bundle exec rspec spec/practice1_spec.rb `
+  + 課題2 : ` bundle exec rspec spec/practice2_spec.rb `
+
+### 課題3 について
++ テストは設けていません
++ 最後に画面を見ながら確認します
++ sinatraの起動
+```
+$ bundle exec rackup config.ru 
+```
 
 ## 課題1(ペアプロ) : `lib/practice1.rb`
 
