@@ -18,7 +18,7 @@
 ### 準備
 + リポジトリをローカル環境にクローン
 ```
-$ git clone 
+$ git clone  git@github.com:TMogi/pair_pro_practice.git
 ```
 
 + 環境設定
